@@ -105,14 +105,6 @@ function drawScores() {
   ctx.fillText(scoreGreen, canvas.width/2-25, 150);
   ctx.fillStyle = "rgba(0,149,221,0.3)";
   ctx.fillText(scoreBlue, canvas.width/2-25, canvas.height-100);
-  if(scoreGreen == 2){
-    ctx.fillStyle = "rgba(78,244,66,0.3)";
-    ctx.fillText("Green has won", canvas.width/2-25, 150);
-  }
-  if(scoreBlue == 2){
-    ctx.fillStyle = "rgba(78,244,66,0.3)";
-    ctx.fillText("Blue has won", canvas.width/2-25, 150);
-  }
 }
 
 function draw() {
